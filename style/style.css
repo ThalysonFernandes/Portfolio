@@ -219,7 +219,7 @@ hr {
   }
   & img {
     width: 100%;
-    max-width: 0px;
+    max-width: 100px;
     margin: 38px;
   }
   & .skillItem {
@@ -255,8 +255,8 @@ hr {
     justify-content: space-between;
   }
   & .divsPortfolio {
-    width: 380px;
-    height: 380px;
+    width: 330px;
+    height: 330px;
     border: 1px solid rgba(112, 112, 112, 0.5);
     margin-bottom: 50px;
     border-radius: 20px;
@@ -270,8 +270,8 @@ hr {
 
   & .divsPortfolio img {
     width: 100%;
-    max-width: 400px;
-    max-height: 260px;
+    max-width: 350px;
+    max-height: 210px;
     width: auto;
     height: auto;
     border-radius: 0;
@@ -320,7 +320,6 @@ hr {
   color: white;
 
   & h2 {
-    font-size: 35px;
     margin-bottom: 10px;
   }
   & svg {
