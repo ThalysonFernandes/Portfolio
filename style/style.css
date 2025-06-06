@@ -20,7 +20,7 @@ body {
     background: linear-gradient(90deg, #182e38, #2c5364);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 80px;
   }
   & a {
@@ -46,22 +46,22 @@ section {
 .header {
   margin: 45px auto;
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
   color: #d1d5db;
   padding: 40px;
   background-color: transparent;
   justify-content: space-between;
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 27px;
-  font-size: 20px;
+  font-size: 15px;
   & ul {
     padding: 0 100px;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
     justify-content: center;
   }
   & li {
-    padding: 0 25px;
+    padding: 0 20px;
     list-style: none;
     cursor: pointer;
     transition: 0.8s ease;
@@ -74,7 +74,7 @@ section {
 
 .euSection {
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -156,7 +156,7 @@ hr {
 
 .serviceSection {
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
   & .serviceContent {
     position: relative;
     gap: 35px;
@@ -207,19 +207,19 @@ hr {
 
 .skillSection {
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
   color: white;
   & h2 {
     margin-left: 15px;
   }
   & h3 {
-    margin-left: 200px;
+    text-align: center;
     margin-bottom: 50px;
     font-size: 35px;
   }
   & img {
     width: 100%;
-    max-width: 130px;
+    max-width: 0px;
     margin: 38px;
   }
   & .skillItem {
@@ -247,7 +247,7 @@ hr {
 
 .portfolioSection {
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
 
   & .portfolioContent {
     width: 100%;
@@ -315,7 +315,7 @@ hr {
 
 .contatoSection {
   width: 76%;
-  max-width: 1400px;
+  max-width: 1200px;
 
   color: white;
 
@@ -351,7 +351,7 @@ hr {
   }
 
   .divContact {
-    width: 65%;
+    width: 76%;
     justify-content: space-between;
     & h3 {
       font-size: 20px;
